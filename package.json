@@ -1,0 +1,26 @@
+{
+  "name": "typegraphql-union",
+  "version": "1.0.0",
+  "description": "Reproduce union error when two schemas run at the same time",
+  "main": "index.js",
+  "repository": "https://github.com/bkstorm/type-graphql-union-error",
+  "author": "Nguyen Hoang (hoangnv@outlook.com)",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^13.9.2",
+    "apollo-server": "^2.11.0",
+    "apollo-server-express": "^2.11.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "graphql": "^14.6.0",
+    "helmet": "^3.21.3",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^0.17.6"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/helmet": "^0.0.45",
+    "typescript": "^3.8.3"
+  }
+}

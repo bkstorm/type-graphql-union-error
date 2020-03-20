@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declaration": true,
+    "module": "commonjs",
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "incremental": false,
+    "moduleResolution": "node",
+    "lib": ["es2016", "esnext.asynciterable", "DOM"],
+    "outDir": "dist",
+    "sourceMap": true,
+    "removeComments": true,
+    "target": "ES2017",
+    "types": ["reflect-metadata", "helmet"],
+    "typeRoots": ["node_modules/@types"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
